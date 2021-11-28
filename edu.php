@@ -50,10 +50,10 @@ Echo "<br>";
     <br>
     <input type="submit">
 
-    <input type="hidden" name="uname" value=<?php echo $name;?>>
-    <input type="hidden" name="gender" value=<?php echo $gender;?>>
-    <input type="hidden" name="add" value=<?php echo $add;?>>
-    <input type="hidden" name="bdate" value=<?php echo $bdate;?>>
+    <input type="hidden" name="uname" value="<?php echo $name;?>">
+    <input type="hidden" name="gender" value="<?php echo $gender;?>">
+    <input type="hidden" name="add" value="<?php echo $add;?>">
+    <input type="hidden" name="bdate" value="<?php echo $bdate;?>">
    
     </form>
   

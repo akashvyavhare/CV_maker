@@ -47,14 +47,14 @@ Echo "<br>";
     </td>
     </tr>
    
-    <input type="hidden" name="uname" value=<?php echo $name;?>>
-    <input type="hidden" name="gender" value=<?php echo $gender;?>>
-    <input type="hidden" name="add" value=<?php echo $add;?>>
-    <input type="hidden" name="bdate" value=<?php echo $bdate;?>>
-    <input type="hidden" name="deg" value=<?php echo $deg;?>>
+    <input type="hidden" name="uname" value="<?php echo $name;?>">
+    <input type="hidden" name="gender" value="<?php echo $gender;?>">
+    <input type="hidden" name="add" value="<?php echo $add;?>">
+    <input type="hidden" name="bdate" value="<?php echo $bdate;?>">
+    <input type="hidden" name="deg" value="<?php echo $deg;?>">
 
-    <input type="hidden" name="hsc" value=<?php echo $hsc;?>>
-    <input type="hidden" name="ssc" value=<?php echo $ssc;?>>
+    <input type="hidden" name="hsc" value="<?php echo $hsc;?>">
+    <input type="hidden" name="ssc" value="<?php echo $ssc;?>">
   
     </table>
     <br>
